@@ -1,2 +1,2 @@
 # calculator
-A simple for written in python
+A simple calculator written in python.
