@@ -16,6 +16,10 @@ while True:
     print("Select operation: +, -, *, /")
     choice=input("Enter choice: ")
 
+    while choice not in ['+','-','*','/']:
+        print("Invalid choice. Please select a valid operation.")
+        choice=input("Enter choice: ")
+
     num1=float(input("Enter first number: "))
     num2=float(input("Enter second number: "))
 
