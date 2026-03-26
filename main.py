@@ -24,13 +24,13 @@ while True:
     num2=float(input("Enter second number: "))
 
     if choice=="+":
-        print(add(num1,num2))
+        print("Result:", (add(num1,num2)))
     elif choice=="-":
-        print(subtract(num1,num2))
+        print("Result:", (subtract(num1,num2)))
     elif choice=="*":
-        print(multiply(num1,num2))
+        print("Result:", (multiply(num1,num2)))
     elif choice=="/":
-        print(divide(num1,num2))
+        print("Result:", (divide(num1,num2)))
     else:
         print("Invalid input")
 
